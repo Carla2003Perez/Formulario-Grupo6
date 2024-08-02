@@ -55,7 +55,7 @@ header {
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(34, 130, 175, 0.814);
-    max-width: 700px;
+    max-width: 500px;
     width: 100%;
     margin: 20px;
 }
@@ -114,7 +114,9 @@ button[type="submit"]:hover {
     background-color: #a09545;
 }
 
-@media (max-width: 614px) {
+
+
+@media (max-width: 1024px) {
     .form-container {
         padding: 15px;
     }
@@ -147,7 +149,7 @@ button[type="submit"]:hover {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .container {
         margin-top: 10px;
     }
