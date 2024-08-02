@@ -102,10 +102,11 @@ p {
 
     .cuadro .fila .col {
         width: 45%;
-        
     }
 
-    
+    .sombra {
+        padding: 40px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -117,14 +118,14 @@ p {
         width: 100%;
     }
 
-    
+    .sombra {
+        padding: 30px;
+    }
 }
 
 @media (max-width: 480px) {
     body {
         padding: 10px;
-        display: block;
-        
     }
 
     h2 {
@@ -139,10 +140,8 @@ p {
         font-size: 1.2rem;
     }
 
-
     .cuadro .fila .col {
         margin-bottom: 15px;
-        
     }
 
     .cuadro .icon {
