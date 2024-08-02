@@ -3,7 +3,7 @@
 body {
     font-family: Georgia;
     min-width: 100vh;
-    background-image: url("edificios.jpg");
+    background-image: url("img/edificios.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
