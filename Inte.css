@@ -86,6 +86,7 @@ p {
     text-decoration: none;
 }
 
+
 /* Media Queries para diseño responsivo */
 @media (max-width: 1024px) {
     h2 {
@@ -96,7 +97,9 @@ p {
         width: 45%;
     }
 
-    
+    .sombra {
+        padding: 40px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -108,11 +111,13 @@ p {
         width: 100%;
     }
 
-    
+    .sombra {
+        padding: 30px;
+    }
 }
 
 @media (max-width: 480px) {
-   * body {
+    body {
         padding: 10px;
     }
 

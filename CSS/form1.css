@@ -114,36 +114,9 @@ button[type="submit"]:hover {
     background-color: #a09545;
 }
 
-/* Media Queries */
-
-@media (max-width: 1023px) {
-    .container {
-        flex-direction: column;
-        padding: 10px;
-    }
-    
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .logo img {
-        height: 50px;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-    
-    button[type="submit"] {
-        padding: 8px;
-    }
-}
-
-@media (max-width: 767px) {
+@media (max-width: 614px) {
     .form-container {
         padding: 15px;
-        margin: 10px;
     }
 
     h1 {
@@ -155,29 +128,40 @@ button[type="submit"]:hover {
     }
 }
 
-@media (max-width: 480px) {
-    body {
-        background-size: contain;
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        margin-top: 10px;
     }
-    
+
     .form-container {
-        padding: 10px;
-        margin: 5px;
+        padding: 20px;
+        margin: 40px;
     }
 
     h1 {
-        font-size: 18px;
+        font-size: 26px;
     }
 
     button[type="submit"] {
-        padding: 6px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        margin-top: 10px;
     }
 
-    header {
-        padding: 5px;
+    .form-container {
+        padding: 15px;
+        margin: 20px;
     }
-    
-    .logo img {
-        height: 40px;
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button[type="submit"] {
+        padding: 8px;
     }
 }
