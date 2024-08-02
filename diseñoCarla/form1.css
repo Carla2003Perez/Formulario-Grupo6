@@ -1,0 +1,167 @@
+/* Encabezado */
+
+body {
+    font-family: Georgia;
+    min-width: 100vh;
+    background-image: url("edificios.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-nombre {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    min-height: 60px;   
+    background: linear-gradient(to right, #4f089c, #44eacc);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+@media (min-width: 1024px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+/* Inicio */
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.83);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(34, 130, 175, 0.814);
+    max-width: 700px;
+    width: 100%;
+    margin: 20px;
+}
+
+h1 {
+    color: #4f089c;
+    font-size: 28px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+input[type="text"], select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #2ddbbb;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #0b5b52e9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #a09545;
+}
+
+@media (max-width: 614px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    button[type="submit"] {
+        padding: 8px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        margin-top: 10px;
+    }
+
+    .form-container {
+        padding: 20px;
+        margin: 40px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    button[type="submit"] {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        margin-top: 10px;
+    }
+
+    .form-container {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button[type="submit"] {
+        padding: 8px;
+    }
+}

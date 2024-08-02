@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Information</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="diseñoReyna/Styles.css">
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Formulario de Registros</h2>
+                <p class="card-text">Utilice el formulario a continuación para registrar su información.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="Nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="Nombre" name="Nombre">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Apellido">Apellido:</label>
+                        <input type="text" class="form-control" id="Apellido" name="Apellido">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Deporte Favorito">Deporte Favorito:</label>
+                        <select class="form-control" id="Deporte Favorito" name="Deporte Favorito">
+                            <option value="Atletismo">Atletismo</option>
+                            <option value="Voleibol">Voleibol</option>
+                            <option value="Boxeo">Boxeo</option>
+                            <option value="Bádminton">Bádminton</option>
+                            <option value="Ciclismo">Ciclismo</option>
+                            <option value="Esgrima">Esgrima</option>
+                            <option value="Hockey">Hockey</option>
+                            <option value="Natación">Natación</option>
+                            <option value="Judo">Judo</option>
+                            <option value="Remo">Remo</option>
+                            <option value="Boxeo">Boxeo</option>
+                            <option value="Canotaje">Canotaje</option>
+                            <option value="Gimnasia">Gimnasia</option>
+                            <option value="Tiro con Arco">Tiro con Arco</option>
+                            <option value="Taekwondo">Taekwondo</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Genero:</label><br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="Hombre" name="Genero" value="Hombre">
+                            <label class="form-check-label" for="Hombre">Hombre</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="Mujer" name="Genero" value="Mujer">
+                            <label class="form-check-label" for="Mujer">Mujer</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="No quiero decir" name="Genero" value="No quiero decir">
+                            <label class="form-check-label" for="No quiero decir">No quiero decir</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Lugar de Residencia">Lugar de Residencia:</label>
+                        <select class="form-control" id="Lugar de Residencia" name="Lugar de Residencia">
+                            <option value="Kansas">Kansas</option>
+                            <option value="California">California</option>
+                            <option value="Texas">Texas</option>
+                            <option value="Portugal">Portugal</option>
+                            <option value="España">España</option>
+                            <option value="Dinamarca">Dinamarca</option>
+                            <option value="Dubai">Dubai</option>
+                            <option value="Francia">Francia</option>
+                            <option value="Grecia">Grecia</option>
+                            <option value="Guatemala">Guatemala</option>
+                            <option value="Italia">Italia</option>
+                            <option value="Nueva Zelanda">Nueva Zelanda</option>
+                            <option value="Estados Unidos">Estados Unidos</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="Cuba">Cuba</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Edad">Edad:</label>
+                        <select class="form-control" id="Edad" name="Edad">
+                            <option value="15 - 20">15 - 20</option>
+                            <option value="20 - 25">20 - 25</option>
+                            <option value="25 - 30">25 - 30</option>
+                            <option value="30 - 35">30 - 35</option>
+                            <option value="35 - 40">35 - 40</option>
+                            <option value="40 - 45">40 - 45</option>
+                            <option value="45 - 50">45 - 50</option>
+                            <option value="50 - 55">50 - 55</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <p>Car models owned:</p>
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" id="ford" name="car-model" value="ford">
+                            <label class="form-check-label" for="ford">Ford</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" id="chrysler" name="car-model" value="chrysler">
+                            <label class="form-check-label" for="chrysler">Chrysler</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" id="toyota" name="car-model" value="toyota">
+                            <label class="form-check-label" for="toyota">Toyota</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" id="nissan" name="car-model" value="nissan" checked>
+                            <label class="form-check-label" for="nissan">Nissan</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

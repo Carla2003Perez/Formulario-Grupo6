@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="diseñoCarla/form1.css">
+</head>
+<body>
+  
+      <header>
+          
+          <div class="circulo">  
+          <a class="logo">
+              <img src="diseñoCarla/logo.png" clas="logo-img" alt="logo del formulario">  
+              <h2 class="logo-nombre"">Formulario</h2>            
+          </a>
+      </div>
+     
+     
+  
+  </header>
+
+  <div class="container"> 
+      <section class="form-container">
+          <h1><b>Actualizar información</b></h1>
+          <h3>Utilice el siguiente formulario para editar su información: </h3>
+          <form action="#">
+              <div class="input-field">
+                  
+                  <label for="firstname">
+                    <span class="material-symbols-outlined">
+                        star
+                        </span>
+                        <b>Nombre</b></label>
+                  <input type="text" id="firstname" name="firstname" >
+              </div>
+              
+              <div class="input-field">
+                  <label for="lastname">
+                    <span class="material-symbols-outlined">
+                        star</span>
+                    <b>Apellido</b></label>
+                  <input type="text" id="lastname" name="lastname">
+              </div>
+          <br>
+              <div>
+                  <label for="sport">
+                    <span class="material-symbols-outlined">sports_soccer </span>
+                    <b> Deporte Favorito</b>
+                </label>
+
+                  <select id="sport" name="sport" >
+                      
+                      <option value="" disabled selected>--seleccione--</option>
+                      <option value="basketbol">Basketball</option>
+                      <option value="footbol">Football</option>
+                      <option value="basebol">Baseball</option>
+                      <option value="soccer">Soccer</option>
+                      <option value="esgrima">Esgrima</option>
+                      <option value="natacion">Natación</option>
+                  </select>
+                 
+              </div>
+              <br><br>
+              <p><span class="material-symbols-outlined"> wc </span>
+                <b> Género:</b></p>
+              <p>
+                  <label>
+                      <input name="gender" type="radio" value="male"/>
+                      <span>Masculino</span>
+                      <input name="gender" type="radio" value="female"/>
+                      <span>Femenino</span>
+                      <input name="gender" type="radio" value="notsure"/>
+                      <span>No quiero decir</span>
+                  </label>
+              
+              </p>
+          
+          <br>
+          
+                  <label for="state"> <span class="material-symbols-outlined">
+                    location_city
+                    </span>
+                    <b>Residente de estado</b>
+                </label>
+                  <select id="state" name="state">
+                      <option value="" disabled selected>--seleccione--</option>
+                      <option value="Kansas">Kansas</option>
+                      <option value="California">California</option>
+                      <option value="España">España</option>
+                      <option value="Dinamarca">Dinamarca</option>
+                      <option value="Dubai">Dubai</option>
+                      <option value="Francia">Francia</option>
+                      <option value="Alemania">Grecia</option>
+                    <option value="Guatemala">Guatemala</option>
+                  </select>
+              
+              
+                  <label>
+                      <input type="checkbox" id="age" name="age"/>
+                      <span>21 años o más mayor</span>
+                  </label>
+                  <br>
+              
+              <p><span class="material-symbols-outlined">
+                car_tag
+                </span>
+                <b>Modelos de autos que posee:</b></p>
+              <p>
+                <label>
+                    <input type="checkbox" id="ford"/>
+                    <span>Ford</span> &nbsp;
+                    <input type="checkbox"   id="chrysler"/>
+                    <span>Chrysler</span>&nbsp;
+                    <input type="checkbox"  id="toyota"/> 
+                    <span>Toyota</span>&nbsp;
+                    <input type="checkbox"    id="nissan"/>
+                    <span>Nissan</span>
+                </label>
+              </p>
+              <br>
+              
+                  <button type="submit">Guardar Cambios</button>
+              
+          </form>
+
+                      
+      </section>
+
+  </div>
+      <footer>
+          &copy Carla Perez
+      </footer>
+  
+      <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+</body>
+</html>
